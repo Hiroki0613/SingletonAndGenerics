@@ -9,8 +9,12 @@
 import UIKit
 
 class Manager {
-    var memory:String = "記憶なし"
+    // ここにプロパティを追加する
+    var num : Int!
+    var str : String!
 
+    
+    
     static let sharedInstance: Manager = Manager()
     private init() {
     }
