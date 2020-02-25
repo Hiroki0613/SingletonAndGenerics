@@ -8,16 +8,22 @@
 
 import UIKit
 
-class Manager {
-    // ここにプロパティを追加する
-    var num : Int!
-    var str : String!
+class Data {
+    var title: String
+    var contents: String
 
-    
-    
-    static let sharedInstance: Manager = Manager()
-    private init() {
+    init(title: String, contents: String) {
+        self.title = title
+        self.contents = contents
     }
+
+}
+
+class Singleton: NSObject {
+    var data = Data(title: "", contents: "")
+
+    static let sharedInstance: Singleton = Singleton()
+    private override init() {}
 }
 
 //こんなサイトを発見
