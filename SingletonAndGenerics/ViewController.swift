@@ -29,18 +29,32 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let singleton :Singleton =  Singleton.sharedInstance
     }
 
+    
+    func saveTitle(title: String) {
+        data.title = title
+    }
+
+    func saveContents(content: String) {
+        data.contents = content
+    }
+    
 
     @IBAction func keisan(_ sender: Any) {
         //Singletonを用いることによるNextViewControllerへ渡す処理
-        Manager.sharedInstance.memory = "なにか"
     
     }
     
     @IBAction func tap(_ sender: Any) {
         //値を渡す
-        let destVC = NextViewController()
+        guard
+            let title = textField.text,
+            let content = textView.text else { return }
+
+        singleton.saveTitle(title: title)
+        singleton.saveContents(content: content)
         
     
     }
