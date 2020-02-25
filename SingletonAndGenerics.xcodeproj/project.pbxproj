@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F5EA16C2405264D00EAE822 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5EA16B2405264D00EAE822 /* Singleton.swift */; };
 		A423C20024051507003A5457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423C1FF24051507003A5457 /* AppDelegate.swift */; };
 		A423C20224051507003A5457 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423C20124051507003A5457 /* SceneDelegate.swift */; };
 		A423C20424051507003A5457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423C20324051507003A5457 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F5EA16B2405264D00EAE822 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		A423C1FC24051507003A5457 /* SingletonAndGenerics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingletonAndGenerics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A423C1FF24051507003A5457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A423C20124051507003A5457 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				A423C1FF24051507003A5457 /* AppDelegate.swift */,
 				A423C20124051507003A5457 /* SceneDelegate.swift */,
 				A423C20324051507003A5457 /* ViewController.swift */,
+				7F5EA16B2405264D00EAE822 /* Singleton.swift */,
 				A423C2132405168D003A5457 /* NextViewController.swift */,
 				A423C20524051507003A5457 /* Main.storyboard */,
 				A423C2082405150C003A5457 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				A423C20424051507003A5457 /* ViewController.swift in Sources */,
 				A423C2142405168D003A5457 /* NextViewController.swift in Sources */,
 				A423C20024051507003A5457 /* AppDelegate.swift in Sources */,
+				7F5EA16C2405264D00EAE822 /* Singleton.swift in Sources */,
 				A423C20224051507003A5457 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

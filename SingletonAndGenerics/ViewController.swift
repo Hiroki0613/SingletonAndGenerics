@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     
     /*
      課題:Singletonクラスを作成し、tapを押したときにNextViewControllerのtextViewへ入力した値を反映
@@ -35,6 +34,7 @@ class ViewController: UIViewController {
 
     @IBAction func keisan(_ sender: Any) {
         //Singletonを用いることによるNextViewControllerへ渡す処理
+        Manager.sharedInstance.memory = "なにか"
     
     }
     
