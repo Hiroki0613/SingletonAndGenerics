@@ -39,8 +39,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tap(_ sender: Any) {
-        
         //値を渡す
+        let destVC = NextViewController()
+        
     
     }
     
