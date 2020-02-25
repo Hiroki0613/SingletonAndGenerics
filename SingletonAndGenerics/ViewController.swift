@@ -33,13 +33,7 @@ class ViewController: UIViewController {
     }
 
     
-    func saveTitle(title: String) {
-        data.title = title
-    }
-
-    func saveContents(content: String) {
-        data.contents = content
-    }
+   
     
 
     @IBAction func keisan(_ sender: Any) {

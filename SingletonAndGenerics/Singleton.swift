@@ -24,6 +24,14 @@ class Singleton: NSObject {
 
     static let sharedInstance: Singleton = Singleton()
     private override init() {}
+    
+    func saveTitle(title: String) {
+           data.title = title
+       }
+
+       func saveContents(content: String) {
+           data.contents = content
+       }
 }
 
 //こんなサイトを発見
