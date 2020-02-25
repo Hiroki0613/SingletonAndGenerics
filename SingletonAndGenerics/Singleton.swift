@@ -32,6 +32,14 @@ class Singleton: NSObject {
        func saveContents(content: String) {
            data.contents = content
        }
+    
+    func getTitle() -> String {
+        return data.title
+    }
+
+    func getContents() -> String {
+        return data.contents
+    }
 }
 
 //こんなサイトを発見
