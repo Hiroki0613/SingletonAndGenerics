@@ -19,3 +19,6 @@ class Manager {
     private init() {
     }
 }
+
+//こんなサイトを発見
+//https://qiita.com/mcz9mm/items/a58ba981f1b90d5d7ede
